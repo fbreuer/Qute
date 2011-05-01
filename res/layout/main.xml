@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dip"
+    android:scrollbars="vertical"
+    android:gravity="top"
+    android:textSize="16sp"
+    android:capitalize="sentences"
+    android:textColor="#ffff" 
+    android:shadowColor="#f000"
+    android:shadowDx="2.0"
+    android:shadowDy="2.0"
+    android:shadowRadius="4.0"
+/>

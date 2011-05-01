@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <ListPreference android:title="Theme" android:key="prefsTheme" android:entries="@array/displayTheme" android:entryValues="@array/returnTheme" android:defaultValue="0"></ListPreference>
+        <ListPreference android:title="Font Family" android:key="prefsFont" android:entries="@array/displayFont" android:entryValues="@array/returnFont" android:defaultValue="0"></ListPreference>
+        <EditTextPreference android:title="Font Size" android:key="prefsFontSize" android:numeric="integer" android:defaultValue="16"></EditTextPreference>
+        <ListPreference android:title="End of Line Character" android:key="prefsEOL" android:entries="@array/displayEOL" android:entryValues="@array/returnEOL" android:defaultValue="0"></ListPreference>
+</PreferenceScreen>

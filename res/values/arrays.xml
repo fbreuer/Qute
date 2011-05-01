@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="displayTheme">
+ <item>Black</item>
+ <item>Wood</item>
+ <item>Paper</item>
+ <item>Cute</item>
+</string-array>
+<string-array name="returnTheme">
+ <item>0</item>
+ <item>1</item>
+ <item>2</item>
+ <item>3</item>
+</string-array>
+<string-array name="displayFont">
+ <item>MgOpen Cosmetica</item>
+ <item>Junicode</item>
+ <item>Ubuntu</item>
+ <item>Gentium Book Basic</item>
+</string-array>
+<string-array name="returnFont">
+ <item>0</item>
+ <item>1</item>
+ <item>2</item>
+ <item>3</item>
+</string-array>
+<string-array name="displayEOL">
+ <item>\\n (Unix)</item>
+ <item>\\r</item>
+ <item>\\r\\n (Windows)</item>
+</string-array>
+<string-array name="returnEOL">
+ <item>0</item>
+ <item>1</item>
+ <item>2</item>
+</string-array>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TableLayout android:id="@+id/tableLayout1" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <TextView android:layout_width="wrap_content" android:id="@+id/textView1" android:text="@string/dialog_open_blurb" android:layout_height="wrap_content"></TextView>
+        <TextView android:layout_width="wrap_content" android:id="@+id/textView2" android:text="@string/dialog_dir" android:layout_height="wrap_content"></TextView>
+        <EditText android:text="EditText" android:id="@+id/entry_directory" android:layout_width="wrap_content" android:layout_height="wrap_content"></EditText>
+        <TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_file"></TextView>
+        <EditText android:text="EditText" android:id="@+id/entry_file" android:layout_width="wrap_content" android:layout_height="wrap_content"></EditText>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:layout_width="wrap_content" android:id="@+id/button_pick_with_fm" android:layout_height="wrap_content" android:text="@string/dialog_picker"></Button>
+            <Button android:layout_width="wrap_content" android:id="@+id/button_open" android:layout_height="wrap_content" android:text="@string/dialog_button_open"></Button>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, QuteEditor!</string>
+    <string name="app_name">Qute Text Editor</string>
+    <string name="menu_open">Open</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_discard">Discard</string>
+    <string name="menu_fullscreen">Toggle Fullscreen</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="dialog_dir">Directory:</string>
+    <string name="dialog_open_blurb">You can either load an existing file or create a new one.</string>
+    <string name="dialog_file">File:</string>
+    <string name="dialog_picker">Pick using OI Filemanager</string>
+    <string name="dialog_button_open">Open</string>
+    <string name="preferences">Preferences</string>
+</resources>
